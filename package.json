@@ -1,0 +1,27 @@
+{
+  "name": "webpack-serve-26",
+  "version": "1.0.0",
+  "description": "Code sample for https://github.com/webpack-contrib/webpack-serve/issues/26",
+  "main": "index.js",
+  "author": "Ev Haus",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-serve webpack/webpack.config.js"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-preset-react": "6.24.1",
+    "connect-history-api-fallback": "1.5.0",
+    "koa-connect": "2.0.1",
+    "react-hot-loader": "4.0.0",
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.10",
+    "webpack-serve": "0.2.0"
+  }
+}
